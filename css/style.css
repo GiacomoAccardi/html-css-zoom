@@ -24,7 +24,6 @@ body{
 }
 
 .row{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -38,6 +37,15 @@ body{
     position: relative;
 }
 
+.content-foot{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.around{
+    justify-content: space-around;
+}
+
 img{
     width: 100%;
     height: 114px;
@@ -45,25 +53,34 @@ img{
 
 .col25{
     width:25%;
-    background-color: orange;
-    border:2px solid rgb(0, 0, 0);
-    height: 35px;
 }
 
 .col50{
     width:50%;
-    background-color: orange;
-    border:2px solid rgb(0, 0, 0);
-    height: 35px;
 }
 
 main{
-    height: 85vh;
+    height:85vh;
     overflow-y: scroll;
+}
+
+footer{
+    height:10vh;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
 }
 
 header{
     height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.icon-container{
+    text-align: center;
 }
 
 /*UTILITY CLASSES*/
@@ -73,7 +90,7 @@ header{
 }
 
 .just-end{
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .p-r5{
@@ -88,16 +105,40 @@ header{
     margin-top: 5px;
 }
 
+.m-top15{
+    margin-top: 15px;
+}
+
+.m-top10{
+    margin-top: 10px;
+}
+
 .p-10{
     padding: 10px;
+}
+
+.p-5{
+    padding: 5px;
 }
 
 .m-r10{
     margin-right: 10px;
 }
 
+.m-l10{
+    margin-left: 10px;
+}
+
+.m-l20{
+    margin-left: 20px;
+}
+
 .m-r5{
     margin-right: 5px;
+}
+
+.mb5{
+    margin-bottom: 5px;
 }
 
 .flex-cntr{
@@ -109,11 +150,21 @@ header{
     font-size: 10pt;
 }
 
+.larger{
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
 .lablebox{
     position: absolute;
     left: 0;
     bottom: 4px;
 }
+
+.ta-center{
+    text-align: center;
+}
+
 
 
 /*STYLING CLASSES*/
@@ -129,8 +180,16 @@ header{
     padding:5px
 }
 
-footer{
-    background-color: #292929;
+
+.end-btn{
+    background-color: #505050;
+    width: 150px;
+    color: red;
+    text-align: center;
     height: 10vh;
+    padding-top: 30px;
 }
 
+.green{
+    color: rgb(3, 211, 3);
+}
