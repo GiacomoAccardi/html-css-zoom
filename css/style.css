@@ -3,3 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+/*LAYOUT CLASSES*/
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blue;
+    padding: 10px;
+    margin-top: 55px;
+}
+
+.col7{
+    width: calc(100% / 7 - 1%);
+    height: 110px;
+    background-color: red;
+    margin: 5px;
+}
+
+.content{
+}
+
+/*UTILITY CLASSES*/
+
+/*STYLING CLASSES*/
