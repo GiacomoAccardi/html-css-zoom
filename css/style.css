@@ -7,6 +7,7 @@
 body{
     font-family: Arial, sans-serif;
     background-color: black;
+    color: white;
 }
 
 /*LAYOUT CLASSES*/
@@ -22,10 +23,6 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    background-color: blue;
-    padding: 10px;
-    margin-top: 55px;
 }
 
 .col7{
@@ -40,4 +37,53 @@ body{
 
 /*UTILITY CLASSES*/
 
+.just-center{
+    justify-content: center;
+}
+
+.just-end{
+    justify-content: end;
+}
+
+.p-r5{
+    padding-right: 5px;
+}
+
+.m-top55{
+    margin-top: 25px;
+}
+
+.m-top5{
+    margin-top: 5px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.m-r10{
+    margin-right: 10px;
+}
+
+.m-r5{
+    margin-right: 5px;
+}
+
+.flex-cntr{
+    display: flex;
+    align-content: center;
+}
+
+.text-sm{
+    font-size: 10pt;
+}
+
 /*STYLING CLASSES*/
+
+.btn{
+    background-color: #505050; 
+    padding:5px;
+    border-radius: 5px;
+}
+
+
