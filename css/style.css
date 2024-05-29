@@ -19,6 +19,11 @@ body{
     padding: 15px;
 }
 
+.container-full{
+    width: 100%;
+    height: 70px;
+}
+
 .row{
     width: 100%;
     display: flex;
@@ -37,6 +42,20 @@ body{
 img{
     width: 100%;
     height: 114px;
+}
+
+.col25{
+    width:25%;
+    background-color: orange;
+    border:2px solid rgb(0, 0, 0);
+    height: 35px;
+}
+
+.col50{
+    width:50%;
+    background-color: orange;
+    border:2px solid rgb(0, 0, 0);
+    height: 35px;
 }
 
 /*UTILITY CLASSES*/
@@ -102,4 +121,7 @@ img{
     padding:5px
 }
 
+footer{
+    background-color: #292929;
+}
 
